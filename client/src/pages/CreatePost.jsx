@@ -19,7 +19,7 @@ const CreatePost = () => {
     if(form.prompt) {
       try {
         setGeneratingImg(true);
-        const response = await fetch('http://imagin-ai-api.vercel.app/api/v1/imaginai', {
+        const response = await fetch('https://imagin-ai-api.vercel.app/api/v1/imaginai', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
