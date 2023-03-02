@@ -10,11 +10,6 @@
         {
             "src": "/(.*)",
             "dest": "/"
-        },
-        {
-            "source": "/create-post",
-            "destination": "/",
-            "permanent": true
         }
     ]
 }
